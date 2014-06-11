@@ -1,0 +1,43 @@
+
+
+/* content布局
+========================================= */
+#content {
+  margin-top: 12px;
+}
+#content .c-left {
+  float: left;
+  width: 230px;
+  margin-right: 16px;
+}
+#content .c-middle {
+  float: left;
+  width: 730px;
+}
+#content .c-right {
+  float: right;
+  width: 190px;
+}
+
+/* c-left
+========================================= */
+
+
+/* c-middle
+========================================= */
+#main-content {
+  height: 1090px;
+}
+#main-content .inner {
+  padding: 26px 60px 50px 30px;
+}
+#main-content a {
+  color: #0b3b8c;
+  font-size: 14px;
+}
+.page-nav {
+  text-align: center;
+}
+#main-content .page-nav a.curr {
+  color: #000;
+}

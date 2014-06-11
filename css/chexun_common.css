@@ -1,0 +1,143 @@
+/* border-box： 用来装新闻列表的
+ ============================================= */
+.border-box {
+  overflow: hidden;
+  float: left;
+  width: 100%;
+  height: 245px;
+  margin-right: 14px;
+  margin-bottom: 14px;
+  border: 1px solid #d2dfed;
+  border-top: 0 none;
+}
+.border-box.last {
+  margin-right: 0;
+}
+.gray-title {
+  height: 32px;
+  padding: 0 14px;
+  line-height: 32px;
+  background: #f8f8f8;
+  border-top: 2px solid #4593fd;
+  border-bottom: 1px solid #d2dfed;
+}
+.gray-title a {
+  color: #121212;
+  font-size: 14px;
+  font-weight: bold;
+}
+.gray-title a.more {
+  float: right;
+  font-size: 12px;
+  font-weight: normal;
+}
+.border-box .mod-news-list {
+  margin: 12px 22px 5px 15px;
+}
+.border-box .mod-news-list li {
+  margin-bottom: 15px;
+}
+.border-box .mod-news-list a {
+  color: #121212;
+}
+
+/* 新闻列表
+======================== */
+.mod-news-list {
+  list-style: inside;
+}
+.mod-news-list li {
+  margin-bottom: 16px;
+}
+.mod-news-list a {
+  font-size: 12px;
+  color: #6a6a6a;
+}
+.mod-news-list .more {
+  float: right;
+  color: #adadad;
+}
+.mod-news-list .date {
+  float: right;
+}
+
+/* bread-crumb
+========================================= */
+#bread-crumb {
+  margin-bottom: 12px;
+}
+#bread-crumb, #bread-crumb a {
+  color: #535353;
+}
+#bread-crumb a:hover {
+  color: #4593fd;
+}
+
+/* #tabnav
+============================================= */
+#tabnav {
+  height: 34px;
+  margin-top: 3px;
+  margin-bottom: 18px;
+  padding-left: 30px;
+  background: #fafafa;
+}
+#tabnav ul {
+  height: 32px;
+  line-height: 32px;
+}
+#tabnav li {
+  float: left;
+  margin-right: 43px;
+}
+#tabnav a {
+  float: left;
+  height: 32px;
+  padding: 0 12px;
+  font-size: 14px;
+  color: #6b6b6b;
+  
+}
+#tabnav .curr a, #tabnav a:hover {
+  color: #111;
+  border-bottom: 2px solid #4593fd;
+}
+
+
+/* border-box
+============================================= */
+.gray-title {
+  color: #121212;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
+/* 热点新闻排行
+============================================= */
+#hot-news {
+  height: 290px;
+}
+#hot-news .inner {
+  padding: 10px 10px 10px 20px;
+}
+#hot-news li {
+  margin-bottom: 10px;
+}
+#hot-news a{
+  color: #0b3b8c;
+}
+
+
+/* 最新上市
+============================================= */
+#newest {
+  color: #121212;
+}
+#newest .inner {
+  padding: 20px 12px 15px 18px;
+}
+#newest li {
+  overflow: hidden;
+  margin-bottom: 12px;
+}

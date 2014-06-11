@@ -1,0 +1,202 @@
+
+/**
+ * index通用样式 
+ */
+a {
+  color: #777777;
+}
+
+
+.blue-border-title {
+  overflow: hidden;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #ebebeb;
+}
+.blue-border-title a {
+  float: left;
+  padding: 0 38px 7px 8px;
+  color: #006cff;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid #006cff;
+}
+.blue-border-title .more {
+  float: right;
+  padding: 0;
+  margin-top: 4px;
+  color: #969696;
+  font-size: 12px;
+  font-weight: normal;
+  border-bottom: 0 none;
+}
+
+.ad-1090w {
+  margin-bottom: 15px;
+}
+
+/** 
+ * css sprites
+ */
+.sprites-index {
+  display: inline-block;
+  width: 42px;
+  height: 40px;
+  margin-top: 10px;  
+  background-image: url(../img/sprites-index.png);
+  background-repeat: no-repeat;
+}
+.i1 .sprites-index {
+  background-position: 0 0;  
+}
+.i2 .sprites-index {
+  background-position: 0 -41px;  
+}
+.i3 .sprites-index {
+  background-position: 0 -81px; 
+}
+.i4 .sprites-index {
+  background-position: 0 -120px; 
+}
+
+/* floor 
+============================================================= */
+
+/* slider底下一层 
+============================================================= */
+
+.slider-bottom .floor-left a {
+  float: left;
+  width: 94px;
+  height: 81px;
+  text-align: center;
+  background: #fafbfc;
+  border-right: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.slider-bottom h2 {
+  margin-bottom: 15px;
+}
+.slider-bottom h2 a {
+  color: #515151;
+  font-size: 14px;
+  font-weight: bold;
+}
+.slider-bottom h2 a.more {
+  float: right;
+  font-size: 12px;
+  font-weight: normal;
+  color: #999999;
+}
+.slider-bottom ul {
+  list-style: inside;
+}
+.slider-bottom li {
+  margin-bottom: 9px;
+}
+
+.slider-bottom .ad {
+  height: 100%;
+  display: block;
+  text-align: center;
+  background: #f4f5f9;
+}
+
+/* 1F 新闻 
+============================================================= */
+#news {
+  height: 575px;
+  overflow: hidden;
+}
+#news .floor-left {
+  height: 100%;
+  background: #f4f5f1;
+}
+#news .floor-left .bottom {
+  padding: 14px 25px 14px 14px;
+}
+
+/* 2F 新车 
+============================================================= */
+#new-car {
+  height: 395px;
+  overflow: hidden;
+}
+
+/* 3F 行情 
+============================================================= */
+#market {
+  height: 235px;
+  overflow: hidden;
+}
+
+/* 5F 试驾 & 7F 评测
+============================================================= */
+#trial, #pingce {
+  height: 300px;
+}
+#trial .inner, #pingce .inner {
+  padding: 13px 20px 5px 30px;
+}
+#trial .col_3, #pingce .col_3 {
+  float: left;
+  width: 348px;
+  margin-right: 45px;
+}
+#trial .col_3.last, #pingce .col_3.last {
+  margin-right: 0;
+}
+
+/* 6F 视频 
+============================================================= */
+#videos {
+  height: 330px;
+  overflow: hidden;
+}
+#videos .fl {
+  width: 990px;
+}
+#videos .fl .inner {
+  padding: 22px 5px 5px 35px;
+}
+#videos .fr {
+  width: 198px;
+  height: 100%;
+  background: #f7f9f8;
+}
+#videos .fr .inner {
+  padding: 12px 15px 5px 14px;
+}
+.video-item {
+  float: left;
+  width: 148px;
+  margin-bottom: 14px;
+  margin-right: 42px;
+}
+.video-item .hd {
+  display: block;
+  height: 96px;
+  margin-bottom: 13px;
+  border: 1px solid #dedede;
+}
+.video-item .hd img {
+  width: 146px;
+  height: 96px;
+}
+.video-item .bd {
+  line-height: 16px;
+  height: 32px;
+  overflow: hidden;    
+}
+.hot-title {
+  margin-bottom: 14px;
+  color: #006cff;
+  font-size: 14px;
+  font-weight: bold;
+}
+.hot-list {
+  list-style: inside;
+}
+.hot-list li{
+  margin-bottom: 15px;
+}

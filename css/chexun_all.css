@@ -1,0 +1,26 @@
+
+/* #content布局
+ ============================================= */
+#content .c-left {
+  float: left;
+  width: 878px;
+}  
+#content .c-right {
+  float: right;
+  width: 295px;
+}
+
+/* 左边栏
+============================================= */
+.border-box {
+  width: 430px;
+}
+
+/* 右边栏
+============================================= */
+.border-box.col_295w {
+  width: 295px;
+}
+.border-box.col_505h {
+  height: 505px;
+}

@@ -1,0 +1,49 @@
+
+.border-box {
+  height: auto;
+}
+
+/* content布局
+========================================= */
+#content .c-left {
+  float: left;
+  width: 940px;
+}
+#content .c-right {
+  float: right;
+  width: 230px;
+}
+
+/* post正文
+========================================= */
+#post {
+  width: 610px;
+  margin: 46px auto 70px;
+}
+#post h1 {
+  padding-bottom: 16px;
+  color: #000;
+  font-family: '微软雅黑';
+  font-size: 26px;
+}
+#post .info {
+  padding-bottom: 10px;
+  color: #666;
+  border-bottom: 1px dotted #dbdbdb;
+}
+#post .info span {
+  margin-right: 12px;
+}
+#post .bd {
+  margin-top: 37px;
+}
+#post .bd p {
+  margin-bottom: 29px;
+  color: #000;
+  font-size: 16px;
+  line-height: 28px;  
+  text-indent: 2em;
+}
+#post .bd img {
+  margin-bottom: 25px;
+}

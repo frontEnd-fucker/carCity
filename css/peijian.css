@@ -1,0 +1,191 @@
+/** 
+ * 通用
+ */
+.title_14s {
+  font-size: 14px;
+  font-weight: bold;
+  color: #363636;
+  margin-bottom: 14px;
+}
+
+/* 商品盒
+=============================================== */
+.mod-goods {
+  
+}
+.mod-goods img {
+  width: 150px;
+  height: 140px;
+}
+.mod-goods-list {
+  width: 796px;
+  margin-top: -1px;
+}
+.mod-goods-list .mod-goods {
+  float: left;
+  width: 146px; /* 198-26*2 */
+  height: 217px; /* 226-9 */
+  padding: 9px 26px 0;
+  border-top: 1px solid #f0f0f0;
+  border-right: 1px solid #f0f0f0;
+}
+.mod-goods .g-img {
+  text-align: center;
+}
+.mod-goods .g-name {
+  height: 36px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  line-height: 18px;  
+  font-size: 12px;    
+}
+.mod-goods .g-price {
+  font-family: 微软雅黑;
+  font-size: 12px;
+  font-weight: bold;
+  color: #e4393c;
+}
+
+/* 热卖商品
+=============================================== */
+.floor-right .inner {
+  padding: 9px 22px 5px 19px;
+}
+.mod-hot-goods {
+  margin-bottom: 34px;
+}
+.mod-hot-goods .hd {
+  float: left;
+  width: 50px;
+  height: 54px;
+  margin-right: 9px;
+  border: 1px solid #cccccc;
+}
+.mod-hot-goods .hd img {
+  width: 50px;
+  height: 54px;
+}
+.mod-hot-goods .bd {
+  overflow: hidden;
+}
+.mod-hot-goods .g-name {
+  display: block;
+  height: 28px;
+  margin-bottom: 7px;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 14px;
+  color: #3d3d3d;  
+}
+.mod-hot-goods .g-price {
+  font-family: 微软雅黑;
+  font-size: 12px;
+  font-weight: bold;
+  color: #e4393c;
+}
+
+/* 热门品牌文字链
+=============================================== */
+.mod-hot-links {
+  margin: 22px 22px 5px 15px;
+  line-height: 18px;
+}
+.mod-hot-links dt {
+  display: inline;
+  margin-right: 13px;
+  color: #333;
+  font-weight: bold;
+}
+.mod-hot-links dd {
+  display: inline;
+}
+.mod-hot-links dd a {
+  margin-right: 5px;
+}
+.mod-hot-links dd a:hover {
+  text-decoration: underline;
+}
+
+
+
+/* 固定高度层
+=============================================== */
+.h_453 {
+  height: 453px;
+}
+.floor-left {
+  height: 100%;
+  background: #ededed;
+}
+.floor-right {
+  height: 100%;
+  background: #ededed;
+}
+.floor-left .ad {
+  margin: -1px 0 0 -1px;
+}
+.floor-left .ad img {
+  width: 191px;
+  height: 298px;
+}
+
+/** 
+ * end 通用
+ */
+
+/* slider底下一层
+=============================================== */
+.slider-bottom .floor-left {
+  height: 100%;
+  width: 189px;
+  background: #f4f5f1;
+  border-right: 1px solid #e5e5e5;  
+}
+.slider-bottom .floor-middle .fl {
+  position: relative;
+  width: 197px;
+  padding: 12px 0 5px;
+}
+.slider-bottom .mod-goods {
+  
+}
+.slider-bottom .mod-goods .p_abs {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.fix-list h2 {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 13px;
+  color: #5b5a5a;
+  font-weight: bold;
+}
+.fix-list h2 .more {
+  float: right;
+  color: #afafaf;
+  font-weight: normal;
+}
+.fix-list ul {
+  margin: 0 20px;
+}
+.fix-list li {
+  margin-bottom: 7px;
+}
+.fix-list span {
+  color: #01aab1;
+}
+
+
+/* 推荐商家
+=============================================== */
+#brand-recommend {
+  height: 148px;
+}
+#brand-recommend .inner {
+  padding: 20px 0 0 14px;
+}
+#brand-recommend li {
+  float: left;
+  margin-right: 9px;
+}
