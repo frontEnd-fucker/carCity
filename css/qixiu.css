@@ -1,0 +1,131 @@
+/* mod 
+===================================== */
+.mod-project {
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+.mod-project a:hover {
+  text-decoration: underline;
+}
+.mod-project-tit {
+  color: #ababab;
+  font-size: 12px;
+  margin-right: 5px;
+}
+.mod-project-price {
+  color: #f00000;
+  font-weight: bold;
+}
+.mod-project-price i {
+  font-family: 微软雅黑;
+}
+.mod-project-price-del {
+  text-decoration: line-through;
+  color: #b8b8b8;
+  font-weight: normal;
+  margin-right: 10px;
+}
+
+/* end mod 
+===================================== */
+
+.slider-bottom a:hover {
+  text-decoration: underline;
+}
+.slider-bottom .floor-left {
+height: 100%;
+width: 189px;
+background: #f4f5f1;
+border-right: 1px solid #e5e5e5;
+}
+.slider-bottom .floor-left .inner{
+  padding: 10px 5px 0;
+}
+.slider-bottom h2 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #282828;
+  margin-bottom: 10px;
+}
+.slider-bottom .floor-middle .fl .inner {
+  padding: 18px 5px 0 12px;
+}
+.slider-bottom .floor-right .inner{
+  padding: 10px 5px 0 13px;
+}
+.discount-list {
+  list-style: inside decimal;
+}
+.discount-list li {
+  margin-bottom: 5px;
+}
+
+.h288 {
+  height: 288px;
+}
+.floor-left {
+height: 100%;
+background: #ededed;
+}
+.floor-left .ad img{
+  width: 100%;
+  height: 214px;
+}
+.floor-right {
+  height: 100%;
+  background: #ededed;
+}
+
+.floor-right .ad img {
+  width: 100%;
+  height: 197px;
+}
+.ad-bottom {
+  padding: 6px 5px 5px 15px;
+}
+.ad-bottom h2 {
+  color: #333333;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.ad-bottom a {
+  color: #999999;
+}
+.ad-bottom a:hover {
+  text-decoration: underline;
+}
+.hot-comment {
+  line-height: 24px;
+  height: 48px;
+  overflow: hidden;
+}
+.hot-comment .name {
+  color: #8e8e8e;
+}
+.hot-comment i {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  vertical-align: middle;
+  background: url(../img/qixiu/avatar.png) no-repeat center center;
+}
+
+
+.project-list {
+  width: 798px;
+  margin-top: -1px;
+}
+.project-box {
+  float: left;
+  width: 265px;
+  height: 95px;
+  yu-padding: 9px 26px 0;
+  border-top: 1px solid #f0f0f0;
+  border-right: 1px solid #f0f0f0;
+}
+.project-box .mod-project {
+  margin: 12px 0 0 18px;
+  line-height: 24px;
+}
