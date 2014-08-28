@@ -7,11 +7,87 @@
 ========================================= */
 #content .c-left {
   float: left;
-  width: 940px;
+  width: 204px;
+  margin-right: 23px;
+}
+#content .c-middle {
+  float: left;
+  width: 710px;
 }
 #content .c-right {
   float: right;
   width: 230px;
+}
+#content .coupon {
+  margin-top: 0;
+}
+
+/* 车辆推荐
+========================================= */
+.recommend-list {
+  background: #f2f7fa;
+}
+.recommend-list a:hover {
+  text-decoration: underline;
+}
+.recommend-list li {
+  height: 32px;
+  line-height: 32px;
+  padding: 0 10px;
+  overflow: hidden;
+}
+.recommend-list .price {
+  color: #c00;
+}
+.recommend-list .on {
+  height: auto;
+  line-height: 1.2em;
+  padding: 12px 5px 9px 9px;
+  background: #fff;
+  overflow: hidden;
+}
+.recommend-list .on .hd {
+  float: left;
+  margin-right: 14px;
+  width: 83px;
+  height: 63px;
+}
+.recommend-list .on .bd {
+  overflow: hidden;
+}
+.recommend-list .on .tit {
+  margin-bottom: 10px;
+  color: #333;
+  font-weight: bold;
+}
+.recommend-list .on .price {
+  margin-bottom: 10px;
+  color: #c00;
+  font-weight: bold;
+}
+.recommend-list .on .lks a{
+  color: #259;
+}
+
+/* 试驾体验
+========================================= */
+#trial .inner {
+  padding: 16px 0 5px;
+}
+.trial-item {
+  width: 120px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  line-height: 1.5em;
+}
+.trial-item a {
+  color: #3b5998;
+}
+
+.trial-item img{
+  width: 120px;
+  height: 90px;
+  margin-bottom: 5px;
 }
 
 /* post正文
@@ -45,5 +121,5 @@
   text-indent: 2em;
 }
 #post .bd img {
-  margin-bottom: 25px;
+  /*margin-bottom: 25px;*/
 }

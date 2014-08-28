@@ -40,9 +40,88 @@
 
   <!-- content -->
   <div id="content">
-    
+
     <!-- c-left -->
     <div class="c-left">
+      <!-- 新车优券 -->
+      <div class="border-box">      
+        <h2 class="gray-title">新车优券</h2>
+        <div class="coupon">
+          <div class="c-box"><a href="#"><img src="img/index/coupon.jpg"></a></div>
+          <div class="c-box"><a href="#"><img src="img/index/coupon.jpg"></a></div>
+          <ul class="c-list">
+            <li><a href="#">某某品牌最新优券尽在哦车城！</a></li>
+            <li><a href="#">某某品牌最新优券尽在哦车城！</a></li>
+            <li><a href="#">某某品牌最新优券尽在哦车城！</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- 车辆推荐 -->
+      <div class="border-box">
+        <h2 class="gray-title">车辆推荐</h2>
+        <ul class="recommend-list">
+          <li class="on">
+            <img class="hd" src="img/post/recommend.jpg">
+            <div class="bd">
+              <p class="tit"><a href="#">蒙迪欧</a></p>
+              <p class="price">17.98-26.58万</p>
+              <p class="lks"><a href="#">报价</a> | <a href="#">参数配置</a></p>
+            </div>
+          </li>
+          <li>
+            <a class="tit" href="#">帕萨特</a>
+            <span class="fr price">18.38-32.28万</span>
+          </li>
+          <li>
+            <a class="tit" href="#">帕萨特</a>
+            <span class="fr price">18.38-32.28万</span>
+          </li>
+          <li>
+            <a class="tit" href="#">帕萨特</a>
+            <span class="fr price">18.38-32.28万</span>
+          </li>
+          <li>
+            <a class="tit" href="#">帕萨特</a>
+            <span class="fr price">18.38-32.28万</span>
+          </li>
+          <li>
+            <a class="tit" href="#">帕萨特</a>
+            <span class="fr price">18.38-32.28万</span>
+          </li>
+          <li>
+            <a class="tit" href="#">帕萨特</a>
+            <span class="fr price">18.38-32.28万</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- 试驾体验 -->
+      <div id="trial" class="border-box">
+        <h2 class="gray-title">试驾体验</h2>
+        <div class="inner">
+          <div class="trial-item">
+            <a href="#"><img src="img/post/trial.jpg"></a>
+            <a href="#">顶配风采第353季 入手2.5L至尊版</a>
+          </div>
+          <div class="trial-item">
+            <a href="#"><img src="img/post/trial.jpg"></a>
+            <a href="#">顶配风采第353季 入手2.5L至尊版</a>
+          </div>
+          <div class="trial-item">
+            <a href="#"><img src="img/post/trial.jpg"></a>
+            <a href="#">顶配风采第353季 入手2.5L至尊版</a>
+          </div>
+          <div class="trial-item">
+            <a href="#"><img src="img/post/trial.jpg"></a>
+            <a href="#">顶配风采第353季 入手2.5L至尊版</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- c-middle -->
+    <div class="c-middle">
       <div class="border-box">
         <h2 class="gray-title">行业新闻</h2>
         <div id="post">

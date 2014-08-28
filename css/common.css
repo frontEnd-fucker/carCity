@@ -319,3 +319,15 @@
 .slider-bottom .floor-right {
   height: 100%;
 }
+
+/* bread-crumb
+========================================= */
+#bread-crumb {
+  margin-bottom: 12px;
+}
+#bread-crumb, #bread-crumb a {
+  color: #535353;
+}
+#bread-crumb a:hover {
+  color: #4593fd;
+}

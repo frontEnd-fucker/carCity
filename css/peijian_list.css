@@ -1,0 +1,186 @@
+
+#bread-crumb {
+  margin-top: 17px;
+}
+
+/* aside 
+====================================== */
+.cate_tit_ico {
+  background-image: url(../img/peijian_list/sprites-arrow.png);  
+}
+.cate, .recommend {
+background-image: url(../img/peijian_list/bg_repeat.png);
+background-repeat: repeat-y;
+}
+
+
+/* aside 
+====================================== */
+.aside {
+  float: left;
+  width: 190px;
+}
+
+
+/* 导航
+====================================== */
+.cate {
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+  background-position: 0 0;
+  height: auto;
+  overflow: hidden;
+  zoom: 1;
+}
+.cate-hd {
+border: 1px solid #d9d9d9;
+border-top: 0 none;
+height: 39px;
+line-height: 38px;
+padding: 0 15px;
+height: auto;
+overflow: hidden;
+zoom: 1;
+}
+.cate-bd {
+margin-bottom: -1px;
+height: auto;
+overflow: hidden;
+zoom: 1;
+}
+.cate-hd-tit {
+font-size: 16px;
+font-weight: normal;
+color: #000;
+font-family: "微软雅黑";
+}
+.cate-item {
+padding: 0 15px;
+border-left: 1px solid #d9d9d9;
+border-right: 1px solid #d9d9d9;
+width: 158px;
+height: auto;
+overflow: hidden;
+zoom: 1;
+}
+.cate-item-on {
+background-color: #fff;
+border-right: 0 none;
+border-top: 1px solid #d9d9d9;
+margin-top: -1px;
+border-bottom: 1px solid #d9d9d9;
+padding-bottom: 5px;
+}
+.cate-tit {
+height: 32px;
+line-height: 31px;
+border-bottom: 1px dotted #d9d9d9;
+position: relative;
+overflow: hidden;
+}
+.cate-item-on .cate-tit {
+border-bottom: 1px solid #fff;
+}
+.cate-tit-a {
+font-size: 14px;
+cursor: pointer;
+display: block;
+height: auto;
+overflow: hidden;
+zoom: 1;
+float: left;
+text-decoration: none!important;
+}
+.cate-tit-name {
+float: left;
+max-width: 85px;
+_width: 85px;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+font-family: "微软雅黑";
+}
+.cate_tit_ico {
+position: absolute;
+right: 0;
+top: 10px;
+display: block;
+width: 13px;
+height: 13px;
+background-position: -19px -0px;
+cursor: pointer;
+zoom: 1;
+}
+.cate-cnt {
+display: none;
+height: auto;
+overflow: hidden;
+zoom: 1;
+}
+.cate-item-on .cate-cnt {
+display: block;
+}
+.cate-lk {
+float: left;
+height: 18px;
+line-height: 17px;
+overflow: hidden;
+margin-bottom: 6px;
+padding: 0 2px;
+width: 75px;
+cursor: pointer;
+text-decoration: none!important;
+}
+.cate-lk-on {
+width: 79px;
+padding: 0;
+}
+.cate-lk-name {
+float: left;
+max-width: 75px;
+_width: 75px;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
+.cate-lk-on .cate-lk-name {
+color: #fff!important;
+padding: 0 2px;
+background-color: #1d7ad9;
+height: 18px;
+}
+
+/* 本周热销榜
+====================================== */
+.recommend {
+border: 1px solid #d9d9d9;
+border-top: 0 none;
+padding: 10px 15px 15px;
+background-position: -195px 0;
+height: auto;
+overflow: hidden;
+zoom: 1;
+}
+.recommend-tit {
+font-family: "微软雅黑";
+font-size: 16px;
+color: #000;
+font-weight: normal;
+}
+.recommend-goods {
+height: auto;
+overflow: hidden;
+zoom: 1;
+}
+.recommend-goods-li {
+margin-top: 20px;
+height: auto;
+overflow: hidden;
+zoom: 1;
+}
+.mod-goods-w60 {
+padding-left: 70px;
+height: auto!important;
+min-height: 60px;
+height: 60px;
+}
