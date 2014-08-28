@@ -1,0 +1,105 @@
+.content-row1 {
+  border: 1px solid #cccccc;
+}
+.row1-left {
+  float: left;
+  width: 939px;
+  border-right: 1px solid #ccc;
+}
+.row1-right {
+  float: left;
+  width: 248px;
+}
+.service {
+  padding: 30px 379px 10px 42px;
+}
+.serv-tit {
+  margin-bottom: 15px;
+  font-family: "微软雅黑";
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+}
+.serv-tit span {
+  color: #cc0000;
+}
+.serv-limited {
+margin-bottom: 4px;
+height: 30px;
+padding-left: 5px;
+line-height: 30px;
+background: #f2f2f2;
+border: solid #e4e4e4 1px;
+}
+.xianshi {
+  display: inline-block;
+  width: 65px;
+  height: 20px;
+  background: url(../img/qixiu_detail/xianshi.png) no-repeat center center;
+  vertical-align: middle;
+  margin-top: -7px;
+}
+.price {
+  font-family: Verdana;
+  font-size: 18px;
+  font-weight: bold;
+  color: #cc0000;
+}
+.price .rmb {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 12px;
+  color: #000;
+}
+.price-market {
+  margin-left: 10px;
+}
+.xbase-item {
+  position: relative;
+margin-bottom: 15px;
+zoom: 1;
+padding-left: 60px;
+}
+.xbase-col1 {
+  top: 4px;
+position: absolute;
+width: 55px;
+height: 20px;
+overflow: hidden;
+margin-left: -60px;
+line-height: 18px;
+line-height: 22px\9;
+_line-height: 18px;
+text-align: justify;
+text-justify: inter-ideograph;
+}
+.xbase-col2:after {
+display: block;
+clear: both;
+height: 0;
+content: ".";
+visibility: hidden;
+}
+.order_sel2 {
+position: relative;
+display: inline-block;
+float: left;
+height: 22px;
+margin-right: 10px;
+margin-bottom: 4px;
+padding: 0px 9px;
+background: #FFFCF6;
+border: solid #ff6600 2px;
+line-height: 22px;
+white-space: nowrap;
+}
+.order_sel2 .sel2 {
+position: absolute;
+right: -2px;
+bottom: -2px;
+display: inline-block;
+width: 13px;
+height: 13px;
+background-position: -528px -0px;
+overflow: hidden;
+}

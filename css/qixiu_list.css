@@ -5,6 +5,17 @@ body {
   margin-top: 17px;
 }
 
+#main {
+  yu-margin-bottom: 20px;
+}
+
+.content {
+float: right;
+width: 992px;
+font: 12px/1.5 "Lucida Grande",tahoma,arial, 宋体;
+color: #666;
+}
+
 /* aside 
 ====================================== */
 .cate_tit_ico {
@@ -166,7 +177,7 @@ zoom: 1;
 }
 .recommend-tit {
 font-family: "微软雅黑";
-font-size: 16px;
+font-size: 15px;
 color: #000;
 font-weight: normal;
 }
@@ -197,81 +208,21 @@ position: absolute;
 margin-left: -70px;
 width: 60px;
 }
-
-/**
- * 右边主要内容
- */
-.content {
-  float: right;
-  width: 992px;
-  font: 12px/1.5 "Lucida Grande",tahoma,arial, 宋体;
-  color: #666;
-}
-.content a {
-color: #333;
-text-decoration: none;
-}
-
-/* 顶部热卖商品推荐
-====================================== */
-.hotsale {
-width: 958px;
-border: 1px solid #d9d9d9;
-padding: 0 15px 10px;
-height: auto;
-overflow: hidden;
-zoom: 1;
-}
-.hotsale-hd {
-height: 32px;
-line-height: 31px;
-}
-.hotsale-tit {
-font-family: "微软雅黑";
-font-size: 14px;
-font-weight: bold;
-color: #000;
-}
-.hotsale-bd {
-height: 120px;
-overflow: hidden;
-zoom: 1;
-position: relative;
-}
-.hotsale-goods-ul {
-width: 968px;
-}
-.hotsale-goods-li {
-float: left;
-width: 312px;
-margin-right: 10px;
-margin-bottom: 10px;
-}
-.mod-goods-w120 {
-padding-left: 130px;
-height: auto!important;
-min-height: 95px;
-height: 95px;
-}
-.mod-goods-w120 .mod-goods-img {
-position: absolute;
-margin-left: -130px;
-width: 120px;
-}
-.hotsale-goods .mod-goods-info {
-height: 95px;
-overflow: hidden;
-position: relative;
-}
-.mod-goods-img a {
-display: inline-block;
-}
-.mod-goods-img img {
-display: block;
-margin: auto;
-}
-.hotsale-goods .mod-goods-tit {
+.goods .mod-goods-tit {
 margin-bottom: 5px;
+}
+.mod-goods-price {
+margin: 0 0 5px;
+height: 24px;
+zoom: 1;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
+.mod-price {
+color: #d70000;
+font-weight: bold;
+font-size: 14px;
 }
 .mod-goods-tit {
 overflow: hidden;
@@ -279,134 +230,14 @@ height: 36px;
 word-wrap: break-word;
 word-break: break-all;
 }
-.hotsale-goods .mod-goods-price {
-line-height: 21px;
-height: 21px;
-overflow: hidden;
-margin-top: 5px;
-}
-.hotsale-goods .mod-price {
-yu-float: left;
-font-size: 16px;
-color: #d70000;
-font-weight: bold;
-}
-.mod-price i {
-margin-right: 2px;
-font-size: 12px;
-font-family: "arial";
-}
-.hotsale-btn {
-position: absolute;
-bottom: 0;
-left: 0;
-height: auto;
-overflow: hidden;
-}
-.hotsale-buy {
-float: left;
-width: 85px;
-height: 24px;
-text-indent: -9999px;
-overflow: hidden;
-background: url(../img/peijian_list/hotsale-btn.png) no-repeat center center;
-}
 
-/* 属性区
-====================================== */
-.filter {
-margin-bottom: 10px;
+.sort {
+height: 31px;
+background-color: #f5f5f5;
+border: 1px solid #d9d9d9;
+padding: 0 10px;
 position: relative;
-z-index: 4;
-clear: both;
-zoom: 1;
-}
-.filter-area {
-clear: both;
-padding: 0;
-}
-.filter-item {
-position: relative;
-height: auto;
-padding: 7px 0 1px;
-border-bottom: 1px dotted #ddd;
-zoom: 1;
-}
-.filter-tit {
-float: left;
-width: 75px;
-margin-right: 40px;
-color: #999;
-text-align: right;
-height: 18px;
-line-height: 17px;
-overflow: hidden;
-white-space: nowrap;
-text-overflow: ellipsis;
-}
-.filter-con {
-float: left;
-position: relative;
-}
-.filter-item-brand .filter-dl {
-position: relative;
-padding-left: 54px;
-width: 716px;
-}
-.filter-item-multiple .filter-dl {
-max-height: 69px;
-overflow: hidden;
-}
-.filter-dl {
-width: 770px;
-position: relative;
-}
-.filter-dt a {
-display: block;
-float: left;
-height: 18px;
-line-height: 17px;
-white-space: nowrap;
-padding: 0 2px;
-zoom: 1;
-color: #1d7ad9;
-text-decoration: none!important;
-}
-.filter-dt-on a {
-background-color: #1d7ad9;
-color: #fff!important;
-text-decoration: none!important;
-}
-.filter-item-brand .filter-dt, .filter-item-brand .filter-dd, .filter-item-atoz .filter-dt, .filter-item-atoz .filter-dd {
-width: 125px;
-padding-right: 0;
-margin-right: 0;
-}
-.filter-dd {
-float: left;
-padding-bottom: 5px;
-padding-right: 10px;
-zoom: 1;
-white-space: nowrap;
-}
-.filter-item-brand .filter-dt {
-position: absolute;
-left: 0;
-top: 0;
-}
-.filter-lk {
-position: relative;
-float: left;
-display: block;
-height: 18px;
-line-height: 17px;
-padding: 0 2px;
-margin-right: 16px;
-white-space: nowrap;
-zoom: 1;
-color: #1d7ad9;
-text-decoration: none!important;
-cursor: pointer;
+z-index: 3;
 }
 
 /* 排序和价格筛选区
@@ -567,99 +398,126 @@ margin: 0 2px;
 float: left;
 margin-left: 20px;
 }
-.goods {
-padding: 5px 20px;
-margin-bottom: 10px;
+
+#select-list {
+  margin-bottom: -1px;
+  height: 43px;
 }
-.goods-ul {
-_zoom: 1;
-height: auto;
-padding: 0;
-width: 1002px;
+.select-con {
+  float: left;
+  height: 23px;
+  padding: 10px;
+  margin-right: 30px;
 }
-.goods-li {
-float: left;
-position: relative;
-width: 196px;
-height: 270px;
-padding: 15px 0;
-_zoom: 1;
-margin-right: 54px;
-cursor: pointer;
+.select-con span {
+  margin-right: 10px;
 }
-.goods-li-hover {
-z-index: 2;
+.select-con select {
+  height: 23px;
+  width: 118px;
 }
-.goods-li .mod-goods {
-position: absolute;
-top: 0;
-left: 0;
-background-color: #fff;
-padding: 20px 15px 15px 15px;
-border: 3px solid #fff;
-width: 160px;
+.mod-price i {
+margin-right: 2px;
+font-size: 12px;
+font-family: "arial";
 }
-.goods-li .mod-goods {
--webkit-transition: all .2s ease-in 0s;
-transition: all .2s ease-in 0s;
+.x-mod-grade {
+height: 14px;
+line-height: 14px;
 }
-.goods .mod-goods-img {
-position: relative;
-display: block;
-width: 160px;
-height: 160px;
-margin: 0 auto 5px;
-}
-.mod-goods-img {
-text-align: center;
-}
-.mod-goods-img a {
+.x-mod-grade-star {
 display: inline-block;
-}
-.goods .mod-goods-img img {
-width: 160px;
-height: 160px;
-overflow: hidden;
-}
-.goods .mod-goods-info {
-width: 160px;
-margin: 0 auto;
-}
-.goods .mod-goods-tit {
-margin-bottom: 5px;
-}
-.mod-goods-price {
-margin: 0 0 5px;
-height: 24px;
-zoom: 1;
-overflow: hidden;
-white-space: nowrap;
-text-overflow: ellipsis;
-}
-.mod-price {
-color: #d70000;
-font-weight: bold;
-font-size: 14px;
-}
-.goods-more {
+width: 74px;
+height: 14px;
+background-image: url(../img/peijian_detail/star.png);
+background-position: 0 -0px;
+vertical-align: middle;
+margin-right: 2px;
 position: relative;
+top: -2px;
 }
-.goods-more-hd {
-_zoom: 1;
-padding-bottom: 10px;
-height: auto;
+.x-mod-grade-star span {
+display: block;
+width: 100%;
+height: 100%;
+background-image: url(../img/peijian_detail/star.png);
+background-position: 0 -13px;
 }
-.goods-buy {
-position: relative;
-float: left;
-width: 85px;
-height: 24px;
-background: url(../img/peijian_list/hotsale-btn.png) no-repeat center center;
-overflow: hidden;
-zoom: 1;
+.x-mod-grade-score {
+color: #ff7300;
+height: 14px;
 }
-.goods-li-hover .mod-goods {
-border: 3px solid #f0f0f0;
+.blue-txt {
+  color: #057bd2;
+}
+/* 商店列表 
+===================================================== */
+.shop {
+  margin-top: 20px;
+}
+.shop-list {
+  width: 1010px;
+}
+.shop-list li {
+  float: left;
+  width: 445px;
+  height: 191px;
+  margin: 0 9px 9px 0;
+  padding: 23px 20px 0 25px;
+  border: 1px solid #d9d9d9;
+}
+.mod-shop {
+  line-height: 21px;
+  color: #505050;
+}
+.mod-shop-hd {
+  float: left;
+  width: 120px;
+  height: 90px;
+  margin-right: 16px;
+}
+.mod-shop-hd img {
+  width: 120px;
+  height: 90px;
+}
+.mod-shop-bd {
+  overflow: hidden;
+}
+.mod-shop-tit {}
+.mod-shop-tit a {
+  color: #057bd2;
+  font-size: 14px;
+  font-weight: bold;
+}
+.mod-shop-ft {
+  margin-top: 20px;
+}
+.mod-shop-ft table{
+  text-indent: 5px;
+  width: 100%;
+}
+.mod-shop-ft th {
+  height: 20px;
+  background: #f0f0f0;
+  font-weight: normal;
+}
+.mod-shop-ft td {
+  height: 30px;
+}
+.mod-price-market {
+  font-weight: normal;
+  color: #575757;
+}
+.mod-shop-ft .btn {
+  display: inline-block;
+  width: 44px;
+  height: 20px;
+  margin-top: 3px;
+  text-indent: 0;
+  text-align: center;
+  color: #fff;
+  background: #f99412;
+  border: 1px solid #e54b00;
 }
 
 /* 分页 
@@ -708,4 +566,13 @@ height: 22px;
 border: 1px solid #c9c9c9;
 line-height: 22px;
 text-align: center;
+}
+
+.mod-history {
+  text-align: center;
+  border-bottom: 1px solid #ECECEC;
+  padding-bottom: 10px;
+}
+.mod-history-tit a {
+  color: #057bd2;
 }
